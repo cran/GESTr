@@ -1,0 +1,9 @@
+GESTr Function to produce transformed gene expression 'state' values from a log2 normalised gene expression data matrix
+fitRockeDurbin Function to calculate Rocke-Durbin error model parameters from log2 normalised  gene expression data matrix
+findReplicateGroups Function to find groups of entities within a distance matrix that are similar to some statistical threshold
+mergeComponents Function to merge GMM components with predominantly overlapping support
+fitGMM Function to fit Gaussian Mixture Model to vector of gene expression data
+getMonotonicConfidences Function to ensure monotonicity of gene expression state confidence estimates, in terms of underlying gene expression values (for bimodal GMM)
+getMonotonicConfidences_multiclass Function to ensure monotonicity of gene expression state confidence estimates, in terms of underlying gene expression values (for GMM with >2 components)
+ABIdata Gene expression dataset to use for demonstration purposes
+TranSAM Function to identify biologically-significant differential expression in a dataset transformed using GESTr

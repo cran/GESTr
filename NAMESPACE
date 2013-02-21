@@ -1,0 +1,11 @@
+# Default NAMESPACE created by R
+# Remove the previous line if you edit this file
+
+# Export main functions
+export(GESTr,fitRockeDurbin,TranSAM)
+
+# Import all packages listed as Imports or Depends
+import(
+  mclust,gtools
+)
+
